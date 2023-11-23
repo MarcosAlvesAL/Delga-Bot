@@ -102,41 +102,6 @@ ul, ol{
 .button-default-big{
     font-size: 1em;
 }
-.header-link{
-    border: 0;
-}
-.head-img{
-    border-radius: 50%;
-    width: 60px;
-    margin-top: 4px;
-    margin-bottom: -3px;
-}
-.nav-header{
-    background-color: black; 
-    background-position: center bottom;
-}
-.nav-links{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0;
-    margin: 0;
-}
-.link{
-    padding: 0px 10px;
-    list-style: none;
-}
-.nav-header-title{
-    font-size: 16px;
-    color: white;
-    font-weight: normal;
-}
-.nav-footer{
-    text-align: center;
-    box-sizing: border-box;
-    padding: 50 20px;
-    margin: 0;
-}
 input, label, textarea, select{
     display: inline-block;
     width: 100%;
@@ -153,28 +118,70 @@ input:focus, textarea:focus{
     border: solid 2px #49bf9d;
     outline: none;
 }
-.descricao{
+.nav-header{
+    background-image: url('../images/overlay.png');
+}
+.nav-links{
+    display: flex;
+    align-items:start;
+    justify-content: space-between;
+    padding: 0;
+    margin:0;
+}
+.header-link{
+    border: 0;
+}
+.head-img{
+    width: 80%;
+}
+.link{
+    list-style: none;
+    margin: 1em 0 0 0;
+}
+.link:first-child{
+    margin: 1em 0 0 3em;
+}
+.link:last-child{
+    margin: 0.8em 3em 0 0;
+}
+.nav-header-title{
+    font-size: 16px;
+    color: white;
+    font-weight: normal;
+}
+.nav-footer{
+    text-align: center;
+    box-sizing: border-box;
+    padding: 50 20px;
+    margin: 0;
+}
 
-    height: 550px;
-    max-height: 550px;
-    padding: 11% 30% 10% 5%;
+.descricao{
+    height: 450px;
+    max-height: 450px;
+    padding: 5% 3em 5% 35%;
     box-sizing: border-box;
 }
 .descricaoTitle{
     color: white;
     font-size: 40px;
-    background-color: #0000002b;
     margin: 5px;
-    text-align: left;
+    text-align: center;
 }
 .descricaoSubTitle{
     color: white;
     font-size: 20px;
     background-color: #0000002b;
-    text-align: left;
+    text-align: center;
 }
-.conteudo-principal{
-    background-color: #666;
+.conteudo-principal1{
+    background-image: url('../images/overlay.png');
+}
+.button-banner{
+    margin: 1em 0 0 22em;
+}
+.button-banner:last-child{
+    margin: 1em 0 0 1em;
 }
 textarea{
     height: 8em;
