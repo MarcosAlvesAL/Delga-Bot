@@ -1,20 +1,17 @@
 body{
-    font-family: Helvetica, Arial, sans-serif;
-    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black;
     font-weight: normal;
     line-height: 1.7;
     padding: 0;
     margin: 0;
-    background-color: black;
+    background-color: white;
 }
 a{
     transition: color .2s linear;
     text-decoration: none;
 }
-a:hover{
-    border-bottom: 1px dotted;
-    transition: color .2s linear;
-}
+
 h1, h2, h3, h4, h5, h6{
     color: #787878;
     font-weight: normal;
@@ -79,8 +76,8 @@ ul, ol{
     color: #49bf9d;
 }
 .button-default{
-    background-color:white;
-    color: black;
+    background-color:rgb(15, 15, 255);
+    color: white;
     border-radius: 5px;
     padding: 0.5em 1em;
     font-size: 1em;
@@ -97,7 +94,6 @@ ul, ol{
 .button-default-full{
     display: block;
     text-align: center;
-
 }
 .button-default-big{
     font-size: 1em;
@@ -118,13 +114,11 @@ input:focus, textarea:focus{
     border: solid 2px #49bf9d;
     outline: none;
 }
-.nav-header{
-    background-image: url('../images/overlay.png');
-}
+
 .nav-links{
     display: flex;
-    align-items:start;
-    justify-content: space-between;
+    align-items:center;
+    justify-content:space-around;
     padding: 0;
     margin:0;
 }
@@ -132,22 +126,46 @@ input:focus, textarea:focus{
     border: 0;
 }
 .head-img{
-    width: 80%;
+    width: 11em;
 }
 .link{
     list-style: none;
-    margin: 1em 0 0 0;
+    margin: 0.5em 1.5em;
+    color: rgb(15, 15, 255);
+    padding: 0em 0.8em;
+    border-radius: 0.5em;
 }
 .link:first-child{
-    margin: 1em 0 0 3em;
+    border: none;
+    margin: 0.6em 0 0 0;
+}
+.link:first-child:hover{
+    cursor: pointer;
 }
 .link:last-child{
-    margin: 0.8em 3em 0 0;
+    background-color: white;
+    color: rgb(15, 15, 255);
+    font-weight: bold;
+}
+.link:last-child:hover{
+    background-color: rgb(12, 28, 151);
+    color: white;
+    transition: linear 0.2s;
+    cursor: pointer;
+}
+.nav-header{
+    background-color: rgb(15, 15, 255);
 }
 .nav-header-title{
-    font-size: 16px;
+    font-size: 1em;
+    color:rgb(15, 15, 255);
+}
+.nav-header-title:hover{
     color: white;
-    font-weight: normal;
+}
+.nav-header-title1{
+    font-size: 1em;
+    color:white;
 }
 .nav-footer{
     text-align: center;
@@ -159,23 +177,22 @@ input:focus, textarea:focus{
 .descricao{
     height: 450px;
     max-height: 450px;
-    padding: 5% 3em 5% 35%;
+    padding: 12em 8em 3em 8em;
     box-sizing: border-box;
 }
 .descricaoTitle{
-    color: white;
+    color: rgb(15, 15, 255);
     font-size: 40px;
     margin: 5px;
     text-align: center;
 }
 .descricaoSubTitle{
-    color: white;
+    color:rgb(15, 15, 255);
     font-size: 20px;
-    background-color: #0000002b;
     text-align: center;
 }
 .conteudo-principal1{
-    background-image: url('../images/overlay.png');
+
 }
 .button-banner{
     margin: 1em 0 0 22em;
